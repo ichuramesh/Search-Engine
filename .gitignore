@@ -1,4 +1,3 @@
-
 import urllib
 mak_limit=5
 def get_page(url):
@@ -113,4 +112,3 @@ print '\nCrawling...'
 crawled,inx,graph=crawl_web(seed_page)
 ranks=compute_ranks(graph)
 Look_up_new(inx,ranks,search_term)
-
